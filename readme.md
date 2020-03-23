@@ -34,10 +34,3 @@ By  gale-force-eight
 
 疫情实时数据来源：view.inews.qq.com
 
-
-
-![image-20200322212531252](C:\Users\98724\Desktop\疫情地图小程序\截图1.png)
-
-![image-20200322212714738](C:\Users\98724\Desktop\疫情地图小程序\截图2.png)
-
-![image-20200322213205729](C:\Users\98724\Desktop\疫情地图小程序\截图3.png)
