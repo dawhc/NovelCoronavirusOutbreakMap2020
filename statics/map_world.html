@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Awesome-pyecharts</title>
+            <script type="text/javascript" src="https://assets.pyecharts.org/assets/echarts.min.js"></script>
+        <script type="text/javascript" src="https://assets.pyecharts.org/assets/maps/world.js"></script>
+
+</head>
+<body>
+    <div id="cabaa708a8374691b53074c9c39a5fbb" class="chart-container" style="width:1350px; height:750px;"></div>
+    <script>
+        var chart_cabaa708a8374691b53074c9c39a5fbb = echarts.init(
+            document.getElementById('cabaa708a8374691b53074c9c39a5fbb'), 'white', {renderer: 'canvas'});
+        var option_cabaa708a8374691b53074c9c39a5fbb = {
+    "animation": true,
+    "animationThreshold": 2000,
+    "animationDuration": 1000,
+    "animationEasing": "cubicOut",
+    "animationDelay": 0,
+    "animationDurationUpdate": 300,
+    "animationEasingUpdate": "cubicOut",
+    "animationDelayUpdate": 0,
+    "color": [
+        "#c23531",
+        "#2f4554",
+        "#61a0a8",
+        "#d48265",
+        "#749f83",
+        "#ca8622",
+        "#bda29a",
+        "#6e7074",
+        "#546570",
+        "#c4ccd3",
+        "#f05b72",
+        "#ef5b9c",
+        "#f47920",
+        "#905a3d",
+        "#fab27b",
+        "#2a5caa",
+        "#444693",
+        "#726930",
+        "#b2d235",
+        "#6d8346",
+        "#ac6767",
+        "#1d953f",
+        "#6950a1",
+        "#918597"
+    ],
+    "series": [
+        {
+            "type": "map",
+            "label": {
+                "show": false,
+                "position": "top",
+                "margin": 8
+            },
+            "mapType": "world",
+            "data": [
+                {
+                    "name": "China",
+                    "value": 81566
+                }
+            ],
+            "roam": true,
+            "zoom": 1,
+            "showLegendSymbol": false,
+            "emphasis": {},
+            "rippleEffect": {
+                "show": true,
+                "brushType": "stroke",
+                "scale": 2.5,
+                "period": 4
+            }
+        }
+    ],
+    "legend": [
+        {
+            "data": [
+                ""
+            ],
+            "selected": {
+                "": true
+            },
+            "show": true,
+            "padding": 5,
+            "itemGap": 10,
+            "itemWidth": 25,
+            "itemHeight": 14
+        }
+    ],
+    "tooltip": {
+        "show": true,
+        "trigger": "item",
+        "triggerOn": "mousemove|click",
+        "axisPointer": {
+            "type": "line"
+        },
+        "textStyle": {
+            "fontSize": 14
+        },
+        "borderWidth": 0
+    },
+    "title": [
+        {
+            "text": "\u4e16\u754c\u75ab\u60c5\u5730\u56fe\uff08\u66f4\u65b0\u65f6\u95f4\uff1a2020-03-22 21:32:38\uff09",
+            "padding": 5,
+            "itemGap": 10
+        }
+    ],
+    "visualMap": {
+        "show": true,
+        "type": "piecewise",
+        "min": 0,
+        "max": 3000,
+        "inRange": {
+            "color": [
+                "#50a3ba",
+                "#eac763",
+                "#d94e5d"
+            ]
+        },
+        "calculable": true,
+        "inverse": false,
+        "splitNumber": 5,
+        "orient": "vertical",
+        "showLabel": true,
+        "itemWidth": 20,
+        "itemHeight": 14,
+        "borderWidth": 0,
+        "pieces": [
+            {
+                "min": "0",
+                "max": "10",
+                "label": "0-10",
+                "color": "#FFA07A"
+            },
+            {
+                "min": "10",
+                "max": "100",
+                "label": "10-100",
+                "color": "#FF7F50"
+            },
+            {
+                "min": "100",
+                "max": "1000",
+                "label": "100-1000",
+                "color": "#FF4500"
+            },
+            {
+                "min": "1000",
+                "max": "10000",
+                "label": "1000-10000",
+                "color": "#FF0000"
+            },
+            {
+                "min": "10000",
+                "max": "5000000",
+                "label": ">10000",
+                "color": "#B22222"
+            }
+        ]
+    }
+};
+        chart_cabaa708a8374691b53074c9c39a5fbb.setOption(option_cabaa708a8374691b53074c9c39a5fbb);
+    </script>
+</body>
+</html>
